@@ -1,0 +1,544 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Borel', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Hahmlet', serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Mukta', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Public Sans', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+}
+html{
+    scroll-behavior:smooth;
+}
+.icon{
+    position:fixed;
+    bottom:20px;
+    right:10px;
+    z-index:2000;
+    
+}
+.icon a:link,.icon a:visited{
+    color:white;
+    background:rgb(114,32,190);
+    padding:10px 12px;
+    box-shadow:10px 10px 50px 4px rgb(0,0,0,0.5);
+    border-radius:50%;
+
+}
+.section1{
+
+     
+
+    width:100%;
+    height:100vh;
+    background-image:url('img/ankit3.jpg');
+    background-size:100% 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.section1 span{
+    color:rgb(129, 36, 217);
+     
+    font-size:45px;
+    font-weight:bold;
+    font-family: 'Barlow', sans-serif;
+font-family: 'Borel', cursive;
+font-family: 'Cabin', sans-serif;
+font-family: 'Hahmlet', serif;
+font-family: 'Jost', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Public Sans', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.section1 nav{
+    width:100%;
+    position:sticky;
+    top:0;
+    left:0;
+    
+    font-weight:300;
+    z-index:2000;
+     
+    top:0;
+    display:flex;
+    justify-content:space-between;
+    padding:20px 0px;
+    align-items:center;
+}
+.section1 nav label{
+    position:absolute;
+    right:10px;
+    font-size:25px;
+    color:white;
+    display:none;
+    cursor:pointer;
+     
+}
+ 
+.section1 nav input{
+      display:none;
+}
+.section1 nav ul{
+    list-style:none;
+     
+    display:flex;
+    gap:0 25px;
+     
+    
+
+} 
+
+.section1 nav ul li{
+    color:white;
+    cursor:pointer;
+    z-index:1000;
+    position:relative;  
+    font-size: 18px; 
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.section1 nav ul li a{
+    text-decoration:none;
+    color:white;
+    transition: 0.4s;
+     
+}
+.section1 nav ul li a:hover{
+    color:#11115a;
+    
+}
+.section1 nav ul li:first-child{
+    border-bottom:2px solid white;
+    
+}
+.section1 nav ul li::before{
+    position:absolute;
+    content:'';
+    bottom:0;
+    left:0;
+    width:0%;
+    transition:0.5s;
+    border-bottom:2px solid white;
+    display: block;
+    
+     
+
+}
+.section1 nav ul li:hover:before{
+  width:100%;
+  border-color: #11115a;
+
+} 
+
+.section1 .center{
+    height:80vh;
+    width:100%;
+    padding:0 50px;
+    display: flex;
+    align-items: center;
+    justify-items: space-around;
+}
+.section1 .section2-div{
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section1 .img-div{
+    display: flex;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    border-radius:50%;
+}
+.section1 .img-div img{
+    border-radius:100%;
+    width: 340px;
+}
+.section1 .box1{
+    height:100%;
+   
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:start;
+    
+     
+     
+    
+}
+.section1 .box1 ul{
+    list-style:none;
+    display:flex;
+    gap:0 15px;
+    margin-bottom:10px;
+     
+
+}
+.section1 .box1 ul li{
+    border:1px solid rgb(129, 36, 217);
+    padding:10px 15px;
+    border-radius:50% 50%;
+    color:rgb(129, 36, 217);
+    transition:0.3s;
+    box-shadow:4px 4px 50px 1px rgba(0,0,0,0.4);
+}
+.section1 .box1 ul li a:link,.section1 .box1 ul li a:visited{
+     color:rgb(129, 36, 217);
+     text-decoration:none;
+}
+.section1 .box1 ul li a:hover{
+    color:white;
+}
+.section1 .box1 ul li:hover{
+ background:rgb(129, 36, 217);
+ color:white;
+}
+
+.section1 .box1 h3,h1,p,ul li{
+    color:white;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Borel', cursive;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Hahmlet', serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Mukta', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Public Sans', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+}
+.section1 .box1 button,.section2 button{
+ background:rgb(129,36,217);
+ border:none;
+ transition:0.3s;
+padding:5px 10px;
+ border:2px solid transparent;
+ margin-top:20px;
+ box-shadow:4px 4px 50px 1px rgba(0,0,0,0.4);
+}
+.section1 .box1 button:hover,.section2 button:hover{
+    background:none;
+    border:2px solid rgb(114,32,190);
+}
+
+@media screen and (max-width:767px){
+    .section1 nav label{
+        display:block;
+    }
+    .section1{
+        height:100%;
+        padding:10px;
+    }
+    .section1 .section11{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .section1 .section11 img{
+        width:270px;
+    }
+    .section1 nav ul li a:hover{
+        color:blueviolet;
+    }
+    .section1 nav ul{
+        position:absolute;
+        left:-110%;
+        top:60px;
+        display:flex;
+        flex-direction:column;
+        gap:20px;
+        background:#11115a;
+        z-index:2000;
+        width:100%;
+        align-items:center;
+        height:89vh;
+        margin:0;
+        padding:20px 0;  
+         
+    }
+     
+    
+    .section1 nav ul li{
+        border:none;
+    }
+    .section1 h1{
+        font-size:30px;
+    }
+    .section1 nav ul li:hover:before{
+        width:100%;
+        border-color:blueviolet;
+      
+      }
+}
+ 
+.section2 {
+    background:#11115a;
+    padding:40px 0px;
+
+}
+
+.section2 img{
+    animation:animate 2.5s infinite linear;
+}
+@keyframes animate{
+    0%{
+        transform:translateY(0px);
+    }
+    50%{
+        transform:translateY(6px);
+    }
+    100%{
+        transform:translateY(0px);
+    }
+}
+.section2 .section21{
+
+    display:flex;
+    flex-direction:column;
+     
+    justify-content:center;
+}
+.section2 h4,h2,p{
+    color:white;
+}
+.section2 img{
+    height:350px;
+}
+@media screen and (max-width:400px){
+    .section2 img{
+        height:280px;
+    }
+}
+.section3{
+    padding:40px 10px;
+    background:#11115a;
+     
+}
+.section3 .box3{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+     
+    align-items:center;
+    gap:40px 0;
+}
+.section3 .box33{
+    width:300px; 
+    height:440px;
+    padding:20px 10px;
+    display:flex;
+    
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+     
+    overflow:auto;
+    border-bottom:4px solid rgb(114,32,190);
+    border-top:4px solid rgb(114,32,190);
+    border-radius:15px;
+     
+
+}
+.section3 .box33 span{
+    color:white;
+    font-size:26px;
+    
+    font-weight:bold;
+    
+}
+.section3 .box33 h1{
+    color:rgb(114,32,190);
+    transition:0.5s;
+}
+.section3 .box33:hover h1{
+    transform:rotate(360deg);
+}
+.section3 .box33:hover span{
+    color:rgb(114,32,190);
+}
+.section3 .box33 button{
+    background:rgb(114,32,190);
+    border:none;
+    width:120px;
+}
+.section3 .box33 button:hover{
+    background:rgb(93, 29, 153);
+    color:rgb(223, 220, 220);
+}
+.section4{
+    background:#11115a;
+}
+.section4 .col4{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:30px 10px;
+}
+.section4 .box4{
+    width:350px;
+    height:250px;
+    position:relative;
+    overflow:hidden;
+   
+}
+
+.section4 .box4 img{
+    width:100%;
+    height:100%;
+}
+.section4 .box4 span,p{
+    color:white;
+}
+.section4 .box4 .box44{
+    position:absolute;
+    bottom:-100%;
+    left:0;
+    width:100%;
+    height:100%;
+    background:linear-gradient(to top ,rgb(114,32,190),transparent);
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    transition:0.5s;
+    
+    
+}
+.section4 .box4::before{
+    position:absolute;
+    content:'UI&UX Design';
+    color:rgba(114,32,190);
+    font-weight:bold;
+    text-align:center;
+    padding-top:5px;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.3);
+    height:15%;
+    width:100%;
+    transition:0.5s;
+}
+.section4 .box4:hover:before{
+    top:-100%;
+}
+.section4 .box4 .box44 span{
+    font-size:25px;
+    font-weight:bold;
+    color:white;
+}
+.section4 .box4:hover .box44{
+    bottom:0;
+}
+.section4 .box4 .box44 a:visited,.section4 .box4 .box44 a:link{
+    color:black;
+    font-size:20px;
+    padding:6px 10px;
+    background:white;
+    border-radius:50%;
+    transition:0.2s;
+    
+}
+.section4 .box4 .box44 a:hover{
+    background:#11115a;
+    color:white;
+}
+.footer{
+    background:#11115a;
+    padding:40px 10px;
+     
+
+    
+
+}
+.footer .col2{
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items:center;
+      
+    
+}
+.footer form{
+    width:500px;
+}
+.footer form input{
+     
+    border:none;
+    outline:none;
+    /* border-bottom:1px solid rgb(114,32,190); */
+    border-radius:5px;
+    margin:5px 0px;
+    font-size:10px;
+    padding:4px 5px;
+    height:30px;
+    color:white;
+    width:100%;
+    background:rgba(255,255,255,0.1);
+     
+}
+.footer form textarea{
+    padding:4px 5px;
+    border-radius:5px;
+    border:none;
+    outline:none;
+    margin-top:4px;
+    width:500px;
+    font-size:10px;
+    background:rgba(255,255,255,0.1);
+}
+@media screen and (max-width:767px){
+    .footer form{
+        width:100%;
+    }
+    .footer form textarea{
+        width:100%;
+    }
+}
+.footer button{
+
+    margin-top:10px;
+    background:rgb(114,32,190);
+    border:2px solid transparent;
+    font-size:10px;
+}
+.footer button:hover{
+    border:2px solid rgb(129, 36, 217);
+    background:transparent;
+}
+.footer1{
+    background:rgb(114,32,190);
+    padding:5px 0;
+}
+.footer1 .foot{
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.footer1 a:link,.footer1 a:visited{
+    color:white;
+    text-align:center;
+    font-family:helvetica;
+    text-decoration:none;
+    cursor:pointer;
+}
+.footer1 a:hover{
+    color:lightgrey;
+}
+.section2 h2,.section3 h2,.section4 h2,.footer h2{
+    font-weight:bold;
+}
