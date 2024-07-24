@@ -315,7 +315,7 @@ padding:5px 10px;
     color:white;
 }
 .section2 img{
-    height:350px;
+    height: 600px;
 }
 @media screen and (max-width:400px){
     .section2 img{
